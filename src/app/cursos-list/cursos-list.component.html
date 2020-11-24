@@ -1,0 +1,18 @@
+<div class="row row-cols-1 row-cols-md-3">
+<div *ngFor="let curso of cursos"class="card text-white col-4 bg-dark mb-3" style="width: 18rem;">
+    <img src="{{curso.img}}" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">{{curso.nombre}}</h5>
+      <p class="card-text">{{curso.descripcion}}</p>
+      <div class="course-badge__price t-course-price">
+        <span class=" badge badge-dark">{{curso.precio | currency}}
+            <span>ARS</span>
+        </span>
+        <span *ngIf="curso.cupos==0">
+            <span class="badge badge-warning">NO DISPONIBLE!</span>
+        </span>
+      </div>
+      <a href="#" title="" class="btn btn-primary">leer mas →</a>
+    </div>
+</div>
+</div>
