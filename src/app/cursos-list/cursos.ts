@@ -4,5 +4,6 @@ export interface Curso{
     cupos: number;
     precio: number;
     img:string;
+    oferta: boolean;
     
 }
