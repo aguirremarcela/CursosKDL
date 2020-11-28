@@ -8,10 +8,10 @@
   <div class="collapse navbar-collapse mr-auto" id="navbarTogglerDemo03">
     <ul class="navbar-nav mr-auto mt-2 mt-lg-0 w-100">
       <li class="nav-item active ml-5 mr-5 d-block">
-        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+        <a class="nav-link" [routerLink]="[ '/' ]">Home <span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item active ml-5 mr-5 d-block">
-        <a class="nav-link" href="#">Contactos</a>
+        <a class="nav-link" [routerLink]="[ '/contacto' ]">Contactos</a>
       </li>
       <li class="nav-item active ml-5 mr-5 d-block">
         <a class="nav-link" href="#">Portfolios</a>
@@ -23,13 +23,6 @@
   <img class=" w-100 img-thumbnail "src="assets/images/portada.jpg" alt="">
 </div>
 <div class="container mt-3">
-  <div class="row">
-    <div class="col-10">
-      <app-cursos-list></app-cursos-list>
-    </div>
-    <div class="col-2">
-      <app-carrito></app-carrito>
-    </div>
-  </div>
+  <router-outlet></router-outlet>
 </div>
 
