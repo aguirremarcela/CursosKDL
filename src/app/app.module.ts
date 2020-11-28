@@ -5,12 +5,16 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { CursosListComponent } from './cursos-list/cursos-list.component';
 import { CarritoComponent } from './carrito/carrito.component';
+import { KdlContactoComponent } from './kdl-contacto/kdl-contacto.component';
+import { KdlCursosComponent } from './kdl-cursos/kdl-cursos.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     CursosListComponent,
-    CarritoComponent
+    CarritoComponent,
+    KdlContactoComponent,
+    KdlCursosComponent
   ],
   imports: [
     BrowserModule,
