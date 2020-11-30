@@ -1,0 +1,81 @@
+.contactos, .formu {
+    box-shadow: 11px 11px 5px 0px rgba(0,0,0,0.29);
+    background: linear-gradient(to bottom, #485563, #29323c); 
+    width: 400px;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+.contenido {
+    padding-top: 7rem;
+}
+.contenedor {
+    width: 90%;
+    max-width: 1900px;
+    margin: 0 auto;
+}
+#formulario input {
+    color: white;
+    background-color: #ffffff0a;
+    height: 25px;
+    width: 80%;
+    padding-left: 10px; 
+    box-shadow: none;
+    outline: none;
+    border: none;
+    border-radius: 8px;
+    border-bottom: 2px solid rgb(179, 179, 179);   
+}
+#formulario button {
+    color:white;
+    letter-spacing: 2.5px;
+    font-size: 14px; 
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    width: 45%;
+    height: 30px;
+    background-color:rgb(195, 16, 78);
+    box-shadow: none;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+#consulta {
+    resize: none;
+    height: 90px;
+    width: 80%;
+    border: 0;
+    border-radius: 10px;
+    outline: none;
+    background-color: #ffffff0a;
+    color: white;
+}
+#ultimoicon {
+    padding-bottom: 18px; 
+}
+
+.contactos,.formu {
+    box-shadow: 11px 11px 5px 0px rgba(0,0,0,0.29);
+    background: linear-gradient(to bottom, #485563, #29323c); 
+    width: 400px;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+.contactos h2 {
+    text-align: center;
+    color: white;
+    margin: auto;
+    padding-top: 10px;
+}
+.fa {
+    color:white;
+    margin-left: 6px;
+    margin-bottom: 6px;
+}
+h3{
+    font-size: 1.4rem;
+    color: white;
+}
+.formu{
+    text-align: center;
+    color: white;
+}

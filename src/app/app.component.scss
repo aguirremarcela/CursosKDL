@@ -1,1 +1,19 @@
-
+body {
+    font-family: monospace, Courier, 'Courier New'; 
+}
+.nav-item :hover{
+    color:#ee4a4a;
+    font-size: 150%;
+}
+.piepagina {
+    width: 0 auto;
+    height: 60px;
+    display: block;
+    clear: both;
+    padding-top: 8%;
+}
+.piepagina h4 {
+    font-size: 10px;
+    color:gray;
+    text-align: center;
+}
