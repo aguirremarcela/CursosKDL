@@ -2,8 +2,11 @@
 <div *ngFor="let curso of cursos"class="card text-black col-sm-4 mb-3" style="width: 10rem;">
     <img src="{{curso.img}}" class="card-img-top mt-1" alt="...">
     <div class="card-body">
-      <h5 class="card-title">{{curso.nombre}}<span *ngIf="curso.oferta==1" class="badge badge-danger">New!!</span></h5> 
-      <p class="card-text">{{curso.descripcion}}</p>
+      <h5 class="card-title">{{curso.nombre}}<span *ngIf="curso.oferta" class="badge badge-danger">New!!</span></h5> 
+      <span *ngIf="curso.cupos>0">
+        <button class="btn" (click)="agregarAlCarrito(curso)">Comprar</button>
+     </span>
+      <p class="card-text">{{curso.introduccion}}</p>
       <div class="course-badge__price t-course-price">
         <span class=" badge badge-dark">{{curso.precio | currency}}
             <span>ARS</span>
@@ -11,6 +14,9 @@
         <span *ngIf="curso.cupos==0">
             <span class="badge badge-warning">NO DISPONIBLE!</span>
         </span>
+        <div>
+        <app-btn-vermas [curso]="curso.descripcion" ></app-btn-vermas>
+        </div>
       </div>
     </div>
 </div>

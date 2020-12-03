@@ -7,6 +7,7 @@ import { CursosListComponent } from './cursos-list/cursos-list.component';
 import { CarritoComponent } from './carrito/carrito.component';
 import { KdlContactoComponent } from './kdl-contacto/kdl-contacto.component';
 import { KdlCursosComponent } from './kdl-cursos/kdl-cursos.component';
+import { BtnVermasComponent } from './btn-vermas/btn-vermas.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { KdlCursosComponent } from './kdl-cursos/kdl-cursos.component';
     CursosListComponent,
     CarritoComponent,
     KdlContactoComponent,
-    KdlCursosComponent
+    KdlCursosComponent,
+    BtnVermasComponent
   ],
   imports: [
     BrowserModule,
