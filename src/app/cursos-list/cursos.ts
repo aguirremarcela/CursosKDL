@@ -4,6 +4,7 @@ export interface Curso{
     descripcion:string;
     cupos: number;
     precio: number;
+    cantidad:number;
     img:string;
     oferta: boolean;
     
